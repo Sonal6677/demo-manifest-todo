@@ -5,6 +5,7 @@ metadata:
   labels:
     app.kubernetes.io/name: todoapp 
 spec:
+  type: LoadBalancer
   selector:
     app.kubernetes.io/name: todoapp
   ports:
